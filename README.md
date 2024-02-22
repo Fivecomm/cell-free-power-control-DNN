@@ -12,7 +12,6 @@ Cell-free massive multiple-input multiple-output (MIMO) is a technology that com
 
 This code package is structured as follows:
 
-- `dataset/`: Folder that contains the dataset files.
 - `data_preprocessing.py`: This script performs the data preprocessing before training the DNN model. Preprocessed data is saved in `data/` folder.
 - `train.py`: This script trains the DNN and saves the model in the `models/` folder.
 - `test.py`: This script tests the DNN. The output power coefficients are saved in the `results/` folder.
@@ -20,13 +19,15 @@ This code package is structured as follows:
 
 See each file for further documentation.
 
+**NOTE:** The directories mentioned earlier should be created manually.
+
 # Associated dataset
 
 This repository is associated with a dataset that contains the simulation of 12 distinct cell-free massive MIMO scenarios, where each scenario includes 20,000 setups. The simulations take into account three power control optimization schemes: max-min Spectral Efficiency (SE) fairness, sum SE maximization, and Fractional Power Control (FPC).
 
 The dataset is available at [https://zenodo.org/records/10691343](https://zenodo.org/records/10691343).
 
-**NOTE:** The downloaded files should be placed in the `dataset/` directory.
+**NOTE:** The downloaded files should be placed in a directory named `dataset/`.
 
 # Acknowledgments
 
