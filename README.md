@@ -1,1 +1,37 @@
-# cell-free-power-control-DNN
+# A Flexible Low-Complexity DNN Solution for Power Control in Cell-Free Massive MIMO
+
+This repository contains the dataset and code to reproduce results of the following conference paper:
+
+Guillermo García-Barrios, Manuel Fuentes, David Martín-Sacristán , "A Flexible Low-Complexity DNN Solution for Power Control in Cell-Free Massive MIMO,"  *2024 IEEE Annual International Symposium on Personal, Indoor, and Mobile Radio Communications (IEEE PIMRC 2024)* , Valencia, Spain, 2024. [Pending acceptance]
+
+## Abstract of the Paper
+
+Cell-free massive multiple-input multiple-output (MIMO) is a technology that combines ultra-dense cellular networks and massive MIMO to enhance wireless transmission efficiency, being a promising solution for future communication scenarios. However, its implementation poses a significant computational load, which can hinder real-time implementation. The use of machine learning comes as a great solution to reduce this computational complexity. In this context, the present work explores the application of a supervised, low-complexity deep neural network (DNN) for power control, aiming to significantly reduce computational costs. The DNN was evaluated across various scenarios, generating a comprehensive dataset. The proposed DNN outperforms existing methods, demonstrating superior performance with three power optimization schemes: max-min spectral efficiency (SE) fairness, sum SE maximization, and fractional power control (FPC). Importantly, these results are consistent across diverse propagation conditions. A noteworthy outcome of this study is the achievement of a three-orders-of-magnitude reduction in computation time when compared to conventional techniques, paving the way for the practical implementation of cell-free massive MIMO systems.
+
+## Content of Code Package
+
+This code package is structured as follows:
+
+- `dataset/`: Folder that contains the dataset files.
+- `data_preprocessing.py`: This script performs the data preprocessing before training the DNN model. Preprocessed data is saved in `data/` folder.
+- `train.py`: This script trains the DNN and saves the model in the `models/` folder.
+- `test.py`: This script tests the DNN. The output power coefficients are saved in the `results/` folder.
+- `plot_results.py`: This script plots the results of the testing data.
+
+See each file for further documentation.
+
+# Associated dataset
+
+This repository is associated with a dataset that contains the simulation of 12 distinct cell-free massive MIMO scenarios, where each scenario includes 20,000 setups. The simulations take into account three power control optimization schemes: max-min Spectral Efficiency (SE) fairness, sum SE maximization, and Fractional Power Control (FPC).
+
+The dataset is available at [https://zenodo.org/records/10691343](https://zenodo.org/records/10691343).
+
+**NOTE:** The downloaded files should be placed in the `dataset/` directory.
+
+# Acknowledgments
+
+This work is supported by the grant from the Spanish ministry of economic affairs and digital transformation and of the European Union – NextGenerationEU [UNICO-5G I+D/AROMA3D-Earth] (TSI-063000-2021-69).
+
+# License and Referencing
+
+This code package is licensed under the GPLv2 license. If you in any way use this code for research that results in publications, please cite our original article listed above.
