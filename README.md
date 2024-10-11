@@ -2,7 +2,7 @@
 
 This repository contains the dataset and code to reproduce results of the following conference paper:
 
-Guillermo García-Barrios, Manuel Fuentes, David Martín-Sacristán , "A Flexible Low-Complexity DNN Solution for Power Control in Cell-Free Massive MIMO,"  *2024 IEEE 35th Annual International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)*, Valencia, Spain, 2024. [Pending acceptance]
+Guillermo García-Barrios, Manuel Fuentes, David Martín-Sacristán , "A Flexible Low-Complexity DNN Solution for Power Control in Cell-Free Massive MIMO,"  *2024 IEEE 35th Annual International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)*, Valencia, Spain, 2024. [Presented]
 
 ## Abstract of the Paper
 
