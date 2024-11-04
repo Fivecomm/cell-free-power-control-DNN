@@ -3,10 +3,10 @@
 """ 
 This Python script consists of the preprocessing part of the research work:
 
-Guillermo García-Barrios, Manuel Fuentes, David Martín-Sacristán, "A Flexible
+G. García-Barrios, M. Fuentes, and D. Martín-Sacristán, "A Flexible
 Low-Complexity DNN Solution for Power Control in Cell-Free Massive MIMO," 2024
 IEEE 35th Annual International Symposium on Personal, Indoor and Mobile Radio 
-Communications (PIMRC), Valencia, Spain, 2024. [Pending acceptance]
+Communications (PIMRC), Valencia, Spain, 2024.
 
 This is version 1.0 (Last edited: 2024-02-05)
 

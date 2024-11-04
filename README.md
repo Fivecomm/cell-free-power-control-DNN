@@ -1,8 +1,10 @@
 # A Flexible Low-Complexity DNN Solution for Power Control in Cell-Free Massive MIMO
 
-This repository contains the dataset and code to reproduce results of the following conference paper:
+This repository contains the dataset and code to reproduce results of the following papers:
 
-Guillermo García-Barrios, Manuel Fuentes, David Martín-Sacristán , "A Flexible Low-Complexity DNN Solution for Power Control in Cell-Free Massive MIMO,"  *2024 IEEE 35th Annual International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)*, Valencia, Spain, 2024. [Pending acceptance]
+G. García-Barrios, M. Fuentes, and D. Martín-Sacristán, "A Flexible Low-Complexity DNN Solution for Power Control in Cell-Free Massive MIMO,"  *2024 IEEE 35th Annual International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)*, Valencia, Spain, 2024.
+
+G. García-Barrios, M. Fuentes and D, Martín-Sacristán, "Data-Driven Energy Efficiency Modeling in Large-Scale Networks: An Expert Knowledge and ML-Based Approach," in *IEEE Transactions on Machine Learning in Communications and Networking*. [Submitted]
 
 ## Abstract of the Paper
 
@@ -15,7 +17,9 @@ This code package is structured as follows:
 - `data_preprocessing.py`: This script performs the data preprocessing before training the DNN model. Preprocessed data is saved in `data/` folder.
 - `train.py`: This script trains the DNN and saves the model in the `models/` folder.
 - `test.py`: This script tests the DNN. The output power coefficients are saved in the `results/` folder.
+- `test_generalization.py`: This script tests the DNN for a different scenario from which has been trained. An special preprocessing is applied to ensure compatibility. The output power coefficients are saved in the `results/` folder.
 - `plot_results.py`: This script plots the results of the testing data.
+- `plot_results.py`: This script plots the results of the testing data for the generalization part.
 
 See each file for further documentation.
 
@@ -35,4 +39,4 @@ This work is supported by the grant from the Spanish ministry of economic affair
 
 # License and Referencing
 
-This code package is licensed under the GPLv2 license. If you in any way use this code for research that results in publications, please cite our original article listed above.
+This code package is licensed under the GPLv2 license. If you in any way use this code for research that results in publications, please cite our conference paper listed above.
