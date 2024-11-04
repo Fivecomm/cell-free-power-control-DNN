@@ -2,9 +2,13 @@
 
 This repository contains the dataset and code to reproduce results of the following papers:
 
+<<<<<<< HEAD
 G. García-Barrios, M. Fuentes, and D. Martín-Sacristán, "A Flexible Low-Complexity DNN Solution for Power Control in Cell-Free Massive MIMO,"  *2024 IEEE 35th Annual International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)*, Valencia, Spain, 2024.
 
 G. García-Barrios, M. Fuentes and D, Martín-Sacristán, "Data-Driven Energy Efficiency Modeling in Large-Scale Networks: An Expert Knowledge and ML-Based Approach," in *IEEE Transactions on Machine Learning in Communications and Networking*. [Submitted]
+=======
+Guillermo García-Barrios, Manuel Fuentes, David Martín-Sacristán , "A Flexible Low-Complexity DNN Solution for Power Control in Cell-Free Massive MIMO,"  *2024 IEEE 35th Annual International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)*, Valencia, Spain, 2024. [Presented]
+>>>>>>> 57c89f6604b98c4419f9ab54b7dafc55a679afec
 
 ## Abstract of the Paper
 
@@ -19,7 +23,7 @@ This code package is structured as follows:
 - `test.py`: This script tests the DNN. The output power coefficients are saved in the `results/` folder.
 - `test_generalization.py`: This script tests the DNN for a different scenario from which has been trained. An special preprocessing is applied to ensure compatibility. The output power coefficients are saved in the `results/` folder.
 - `plot_results.py`: This script plots the results of the testing data.
-- `plot_results.py`: This script plots the results of the testing data for the generalization part.
+- `plot_results_generalization.py`: This script plots the results of the testing data for the generalization part.
 
 See each file for further documentation.
 
