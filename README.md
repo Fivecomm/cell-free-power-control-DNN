@@ -2,9 +2,9 @@
 
 This repository contains the dataset and code to reproduce results of the following papers:
 
-G. García-Barrios, M. Fuentes and D, Martín-Sacristán, "Data-Driven Energy Efficiency Modeling in Large-Scale Networks: An Expert Knowledge and ML-Based Approach," in *IEEE Transactions on Machine Learning in Communications and Networking*. [Submitted]
+G. García-Barrios, M. Fuentes and D. Martín-Sacristán, "A Highly Generalizable DNN for Power Control in Cell-Free Massive MIMO," in *IEEE Transactions on Machine Learning in Communications and Networking*. [Submitted]
 
-Guillermo García-Barrios, Manuel Fuentes, David Martín-Sacristán , "A Flexible Low-Complexity DNN Solution for Power Control in Cell-Free Massive MIMO,"  *2024 IEEE 35th Annual International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)*, Valencia, Spain, 2024. [Presented]
+G. García-Barrios, M. Fuentes, D. Martín-Sacristán , "A Flexible Low-Complexity DNN Solution for Power Control in Cell-Free Massive MIMO,"  *2024 IEEE 35th Annual International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)*, Valencia, Spain, 2024. [Presented]
 
 ## Abstract of the Paper
 
